@@ -1,0 +1,14 @@
+using System;
+namespace Tender.Products.Settings
+{
+  public class ProductDatabaseSettings: IProductDatabaseSettings
+  {
+    public ProductDatabaseSettings()
+    {
+    }
+
+    public string ConnectionStrings { get; set; }
+    public string DatabaseName { get; set; }
+    public string CollectionName { get; set; }
+  }
+}

@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{B8545F89-425F-4AB8-AEE2-D7587871AFD6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tender.Products/Program.cs">
+    <Files>
+      <File FileName="Tender.Products/Data/ProductContext.cs" Line="22" Column="1" />
+      <File FileName="Tender.Products/Data/ProductContextSeed.cs" Line="80" Column="2" />
+      <File FileName="Tender.Products/Repositories/Interfaces/IProductRepository.cs" Line="16" Column="23" />
+      <File FileName="Tender.Products/Repositories/ProductRepository.cs" Line="59" Column="75" />
+      <File FileName="Tender.Products/Data/Interfaces/IProductContext.cs" Line="1" Column="1" />
+      <File FileName="Tender.Products/Startup.cs" Line="42" Column="13" />
+      <File FileName="Tender.Products/Controllers/ProductsController.cs" Line="76" Column="24" />
+      <File FileName="Tender.Products/Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tender" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="services" expanded="True">
+                <Node name="Products" expanded="True">
+                  <Node name="Tender.Products" expanded="True">
+                    <Node name="Controllers" expanded="True" />
+                    <Node name="Data" expanded="True">
+                      <Node name="Interfaces" expanded="True" />
+                    </Node>
+                    <Node name="Repositories" expanded="True">
+                      <Node name="Interfaces" expanded="True" />
+                    </Node>
+                    <Node name="Program.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.services.Products.Tender.Products PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
