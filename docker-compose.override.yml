@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  tenderdb:
+    container_name: tenderdb
+    restart: always
+    volumes:
+       - "/Users/oguzhankaya/Projects/Tender-MicroService"
+    ports:
+       - "27017:27017"
+
+  tender.products:
+    container_name: tenderproducts
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ProductDatabaseSettings:ConnectionStrings=mongodb://tenderdb:27017"
+    depends_on:
+      - tenderdb
+    ports:
+      - "8080:80"
+    volumes:
+      - "/Users/oguzhankaya/Projects/Tender-MicroService"
+      #- ~/.aspnet/https:/root/.aspnet/https:ro
+      #- ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro

@@ -1,0 +1,30 @@
+services:
+  tender.products:
+    build:
+      context: /Users/oguzhankaya/Projects/Tender-MicroService
+      dockerfile: Tender.Products/Dockerfile
+    container_name: tenderproducts
+    depends_on:
+      tenderdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ProductDatabaseSettings:ConnectionString: mongodb://sourcingdb:27017
+    image: tender
+    ports:
+    - published: 8000
+      target: 80
+    volumes:
+    - /Users/oguzhankaya/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/oguzhankaya/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  tenderdb:
+    container_name: tenderdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+version: '3.4'

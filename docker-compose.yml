@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  tenderdb:
+    image: mongo
+
+  tender.products:
+    image: ${DOCKER_REGISTRY-}tender
+    build:
+      context: .
+      dockerfile: Tender.Products/Dockerfile
