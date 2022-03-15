@@ -1,27 +1,33 @@
 ﻿<Properties StartupConfiguration="{B62B5898-F9F5-40FA-BCEC-60F84A6AADDF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tender.Sourcing/Settings/ITenderDatabaseSettings.cs">
     <Files>
-      <File FileName="Tender.Products/Data/ProductContext.cs" Line="22" Column="1" />
-      <File FileName="Tender.Products/Data/ProductContextSeed.cs" />
-      <File FileName="Tender.Products/Repositories/Interfaces/IProductRepository.cs" />
-      <File FileName="Tender.Products/Repositories/ProductRepository.cs" />
-      <File FileName="Tender.Products/Data/Interfaces/IProductContext.cs" />
-      <File FileName="Tender.Products/Startup.cs" />
-      <File FileName="Tender.Products/Controllers/ProductsController.cs" />
-      <File FileName="docker-compose.yml" />
-      <File FileName="docker-compose.override.yml" Line="16" Column="69" />
+      <File FileName="docker-compose.override.yml" Line="30" Column="32" />
+      <File FileName="docker-compose.yml" Line="14" Column="45" />
+      <File FileName="Tender.Sourcing/Startup.cs" Line="60" Column="91" />
+      <File FileName="Tender.Sourcing/Data/Concrete/TenderContext.cs" Line="11" Column="37" />
+      <File FileName="Tender.Sourcing/appsettings.json" Line="1" Column="1" />
+      <File FileName="Tender.Sourcing/Settings/ITenderDatabaseSettings.cs" Line="6" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Tender" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="services" expanded="True" />
+              <Node name="services" expanded="True">
+                <Node name="sourcing" expanded="True">
+                  <Node name="Tender.Sourcing" expanded="True">
+                    <Node name="Data" expanded="True">
+                      <Node name="Concrete" expanded="True" />
+                    </Node>
+                    <Node name="Settings" expanded="True">
+                      <Node name="ITenderDatabaseSettings.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
             </Node>
             <Node name="docker-compose" expanded="True">
-              <Node name="docker-compose.yml" expanded="True">
-                <Node name="docker-compose.override.yml" selected="True" />
-              </Node>
+              <Node name="docker-compose.yml" expanded="True" />
             </Node>
           </Node>
         </State>
