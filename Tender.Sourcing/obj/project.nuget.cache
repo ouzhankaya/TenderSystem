@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "yar3/4sDTzNjVbYKoVr8W3oDWSw6pnJ9XpWQYonYAIJRbFVHBzHTYdxvA+AlT/M5aY6OmemDk5urwuNvQjwyyQ==",
+  "success": true,
+  "projectFilePath": "/Users/oguzhankaya/Projects/Tender-MicroService/Tender.Sourcing/Tender.Sourcing.csproj",
+  "expectedPackageFiles": [
+    "/Users/oguzhankaya/.nuget/packages/dnsclient/1.6.0/dnsclient.1.6.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/microsoft.openapi/1.1.4/microsoft.openapi.1.1.4.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/mongodb.bson/2.15.0/mongodb.bson.2.15.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/mongodb.driver/2.15.0/mongodb.driver.2.15.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/mongodb.driver.core/2.15.0/mongodb.driver.core.2.15.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/mongodb.libmongocrypt/1.3.0/mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/swashbuckle.aspnetcore/5.1.0/swashbuckle.aspnetcore.5.1.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/swashbuckle.aspnetcore.swagger/5.1.0/swashbuckle.aspnetcore.swagger.5.1.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.1.0/swashbuckle.aspnetcore.swaggergen.5.1.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.1.0/swashbuckle.aspnetcore.swaggerui.5.1.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/oguzhankaya/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

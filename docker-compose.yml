@@ -5,7 +5,14 @@ services:
     image: mongo
 
   tender.products:
-    image: ${DOCKER_REGISTRY-}tender
+    image: ${DOCKER_REGISTRY-}tenderproducts
     build:
       context: .
       dockerfile: Tender.Products/Dockerfile
+
+  tender.sourcing:
+    image: ${DOCKER_REGISTRY-}tendersourcing
+    build:
+      context: .
+      dockerfile: Tender.Sourcing/Dockerfile
+

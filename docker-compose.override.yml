@@ -22,3 +22,18 @@ services:
       - "/Users/oguzhankaya/Projects/Tender-MicroService"
       #- ~/.aspnet/https:/root/.aspnet/https:ro
       #- ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+
+  tender.sourcing:
+    container_name: tendersourcing
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "TenderDatabaseSettings:ConnectionStrings=mongodb://tenderdb:27017"
+    depends_on:
+      - tenderdb
+    ports:
+      - "8081:80"
+    volumes:
+      - "/Users/oguzhankaya/Projects/Tender-MicroService"
+      #- ~/.aspnet/https:/root/.aspnet/https:ro
+      #- ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+

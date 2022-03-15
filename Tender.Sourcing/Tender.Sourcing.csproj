@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Entities\" />
+    <None Remove="MongoDB.Bson" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="Settings\" />
+    <None Remove="Data\" />
+    <None Remove="Data\Interfaces\" />
+    <None Remove="Data\Concrete\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Interfaces\" />
+    <None Remove="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Settings\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Data\Concrete\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.15.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.15.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.1.0" />
+  </ItemGroup>
+</Project>
